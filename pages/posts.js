@@ -23,7 +23,7 @@ export async function getStaticProps() {
             posts,
             title: configData.default.title,
             description: configData.default.description,
-        },
+        }
     }
 }
 

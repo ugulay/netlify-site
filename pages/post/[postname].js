@@ -60,7 +60,6 @@ export async function getStaticPaths() {
     const paths = blogSlugs.map((slug) => `/post/${slug}`)
 
     return {
-        paths, // An array of path names, and any params
-        fallback: true, // so that 404s properly appear if something's not matching
+        paths// so that 404s properly appear if something's not matching
     }
 }
